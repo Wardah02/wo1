@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Details - Hadaf</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,200;1,300;1,400&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/602d0d5d45.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="containter">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/hadaf-logo.jpg" width="125px"></a>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="account.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.html"><img src="images/cart.jpg" alt="" width="30px" height="30px"></a>
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+                </div>
+            </div>
+        </div>
+        <!-- single product details -->
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/gallery-02.jpg" width="100%" id="ProductImg">
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="images/buy-2.jpg" width="100%" class="small-img" onclick="click1()">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-05.jpg" width="100%" class="small-img" onclick="click2()">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-06.jpg" width="100%" class="small-img" onclick="click3()">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-07.jpg" width="100%" class="small-img" onclick="click4()">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <p>Classic / Coat</p>
+                    <h1>Hadaf Classic Ankle Length Coat</h1>
+                    <h4>R350</h4>
+                    <select>
+                        <option>Select Size</option>
+                        <option>XXL</option>
+                        <option>XL</option>
+                        <option>Large</option>
+                        <option>Medium</option>
+                        <option>Small</option>
+                    </select>
+                    <select>
+                        <option>Select Colour</option>
+                        <option>Plum</option>
+                        <option>Black</option>
+                        <option>Olive Green</option>
+                    </select>
+                    <input type="number" value="1">
+                    <a href="cart.html" class="btn">Add To Cart</a>
+                    <h3>Product Details <i class="fas fa-indent"></i></h3>
+                    <br>
+                    <p>Give your winter wardrobe a style upgrade with our new ankle length coat. Dress it up with a beautiful but plain colour thobe or dress it casual with a jeans and a plain t-shirt or our skirtleggings.</p>
+                </div>
+            </div>
+        </div>
+        <!--title-->
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>Related Products</h2>
+            </div>
+        </div>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-4">
+                    <a href="m-coat-dets.html"><img src="images/buy-1.jpg"></a>
+                    <h4>Mauve hooded coat</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>R350-R380</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-details.html"><img src="images/buy-3.jpg"></a>
+                    <h4>Stone colour ankle length coat</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>R350</p>
+                </div>
+                <div class="col-4">
+                    <a href="codb.html"><img src="images/buy-5.jpg"></a>
+                    <h4>Cross-over detail blue dress</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>R350</p>
+                </div>
+                <div class="col-4">
+                    <a href="pchs-dets.html"><img src="images/buy-7.jpg"></a>
+                    <h4>Pleated chiffon headscarves</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>R70</p>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/antalya-turkey-september-21-2020-260nw-1931705552.webp">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/hadaf-logo.jpg" style="width:150px">
+                    <p>Our purpose is to make shopping easier and better, especially after COVID-19, online shopping became the best and safer way.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/HADAF-104405521473441/">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/hadaf_clothingandscarves/">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Hadaf</p>
+        </div>
+    <!------- js for toggle menu ------->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                    {
+                        MenuItems.style.maxHeight = "200px";
+                    }
+                else
+                    {
+                        MenuItems.style.maxHeight = "0px";
+                    }
+            }
+        </script>
+
+        <script>
+            var ProductImg = document.getElementById("ProductImg");
+            var SmallImg = document.getElementsByClassName("small-img");
+
+
+            function click1(){
+                console.log("I runn!!");
+                ProductImg.src = SmallImg[0].src;
+            }
+            function click2(){
+                console.log("I runn!!");
+                ProductImg.src = SmallImg[1].src;
+            }
+            function click3(){
+                console.log("I runn!!");
+                ProductImg.src = SmallImg[2].src;
+            }
+            function click4(){
+                console.log("I runn!!");
+                ProductImg.src = SmallImg[3].src;
+            }
+        </script>
+    </body>
+</html>
